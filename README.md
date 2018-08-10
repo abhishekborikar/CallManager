@@ -1,7 +1,9 @@
 # DND Activation
 
-### Demo Video
-see [click here for demo](https://drive.google.com/open?id=1Y-w-ndTqEs6DYNlI6fZ_Lau-mieWFHfD)
+### App Demo
+[click here for app demo](https://drive.google.com/open?id=1Y-w-ndTqEs6DYNlI6fZ_Lau-mieWFHfD)     
+[sucessful status ](https://drive.google.com/open?id=1axx5iig7Y9HCpZr-6X7iGLXoD7YOtcHT)
+
 
 ### Information Manual
 ----
