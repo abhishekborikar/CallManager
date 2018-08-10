@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.AppCompat.Light.NoActionBar.FullScreen" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="text_header_style">
+        <item name="android:textSize">@dimen/normal_font_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">@dimen/pad_mid</item>
+        <item name="android:paddingTop">@dimen/pad_top_bottom</item>
+        <item name="android:paddingBottom">@dimen/pad_top_bottom</item>
+    </style>
+
+    <style name="text_para_style">
+        <item name="android:textSize">@dimen/small_font_size</item>
+        <item name="android:paddingLeft">@dimen/pad_mid</item>
+        <item name="android:paddingTop">@dimen/pad_top_bottom</item>
+        <item name="android:paddingBottom">@dimen/pad_top_bottom</item>
+    </style>
+
+</resources>

@@ -1,0 +1,48 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="abhishek.redvelvet.com.callmanager.view_model.fragments.SettingFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/activate_dnd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textAlignment="textStart"
+            android:autoSizeMinTextSize="@dimen/small_font_size"
+            android:autoSizeMaxTextSize="@dimen/normal_font_size"
+            android:layout_margin="10dp"
+            style="?android:attr/borderlessButtonStyle"
+            android:text="Activiate DND"
+            />
+
+        <Button
+            android:id="@+id/status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/activate_dnd"
+            android:layout_marginTop="10dp"
+            android:layout_margin="10dp"
+            android:autoSizeMinTextSize="@dimen/small_font_size"
+            android:autoSizeMaxTextSize="@dimen/normal_font_size"
+            android:textAlignment="textStart"
+            style="?android:attr/borderlessButtonStyle"
+            android:text="Status" />
+
+        <Button
+            android:id="@+id/test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Usage"
+            android:visibility="gone"
+            android:layout_below="@+id/status"
+            style="?android:attr/borderlessButtonStyle"
+            />
+
+    </RelativeLayout>
+</FrameLayout>

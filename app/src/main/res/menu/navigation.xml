@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_call"
+        android:icon="@drawable/phone_book"
+        android:title="@string/title_contact" />
+
+    <item
+        android:id="@+id/navigation_recent_call"
+        android:icon="@drawable/recent_contact_32"
+        android:title="@string/title_recent" />
+</menu>
