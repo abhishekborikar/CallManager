@@ -1,4 +1,4 @@
-# Call Manager
+# DND Activation
 
 ### Demo Video
 see [click here for demo](https://drive.google.com/open?id=1Y-w-ndTqEs6DYNlI6fZ_Lau-mieWFHfD)
